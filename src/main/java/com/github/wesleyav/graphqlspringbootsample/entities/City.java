@@ -1,6 +1,6 @@
 package com.github.wesleyav.graphqlspringbootsample.entities;
 
-import java.time.Instant;
+import java.util.Date;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -34,6 +34,6 @@ public class City {
 	private Country country_id;
 
 	@Column(name = "last_update")
-	private Instant last_update;
+	private Date last_update;
 
 }
