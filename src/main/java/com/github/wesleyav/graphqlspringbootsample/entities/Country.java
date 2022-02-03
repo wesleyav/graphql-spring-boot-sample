@@ -1,8 +1,8 @@
 package com.github.wesleyav.graphqlspringbootsample.entities;
 
 import java.io.Serializable;
-import java.time.Instant;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 import javax.persistence.Column;
@@ -36,7 +36,7 @@ public class Country implements Serializable {
 	private String country;
 
 	@Column(name = "last_update")
-	private Instant last_update;
+	private Date last_update;
 
 	@OneToMany(mappedBy = "country_id")
 	@JsonIgnore
