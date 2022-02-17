@@ -12,6 +12,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
@@ -36,6 +38,7 @@ public class Country implements Serializable {
 	private String country;
 
 	@Column(name = "last_update")
+	@Temporal(TemporalType.TIMESTAMP)
 	private Date last_update;
 
 	@OneToMany(mappedBy = "country_id")
