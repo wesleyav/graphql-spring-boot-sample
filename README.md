@@ -1,16 +1,21 @@
 # Projeto básico usando GraphQL e Spring Boot
-
-<img src="https://img.shields.io/badge/SPRING-FRAMEWORK-blue">
-<img src="https://img.shields.io/badge/LICENSE-MIT-blue">
-<img src="https://img.shields.io/badge/STATUS-CONCLUIDO-blue">
+<p align="center">
+  <img src="https://img.shields.io/badge/SPRING-FRAMEWORK-blue">
+  <img src="https://img.shields.io/badge/LICENSE-MIT-blue">
+  <img src="https://img.shields.io/badge/STATUS-CONCLUIDO-blue">
+</p>
 
 > Status do Projeto: :heavy_check_mark: CONCLUÍDO
 
-<img widht="100" height="100" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg" />
-<img widht="100" height="100" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain-wordmark.svg" />
-<img widht="100" height="100" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain-wordmark.svg" />
-<img widht="100" height="100" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
-<img widht="100" height="100" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tomcat/tomcat-original-wordmark.svg" />
+<table>
+  <tr>
+    <td><img widht="100" height="100" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg" /></td>
+    <td><img widht="100" height="100" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain-wordmark.svg" /></td>
+    <td><img widht="100" height="100" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain-wordmark.svg" /></td>
+    <td><img widht="100" height="100" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" /></td>
+    <td><img widht="100" height="100" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tomcat/tomcat-original-wordmark.svg" /></td>
+  </tr>
+</table>
 
 ### Descrição
 Este é um projeto simples que ajuda a entender a estrutura e funcionamento do GraphQL com Spring Boot. Utiliza o MySQL como banco de dados, possui apenas duas tabelas (city e country) que foram obtidas do banco de dados de amostra Sakila disponível em (https://dev.mysql.com/doc/sakila/en/). 
